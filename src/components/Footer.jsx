@@ -15,19 +15,19 @@ export function Footer() {
                             >
                                 <img src="/imgs/logo.svg" alt="Logo" width="30" height="30" className="me-2" />
                                 <span className="brand-text">
-                                    <span className="text-white">Online</span>
-                                    <span className="text-primary text-color"> Shop</span>
+                                    <span className="text-white">Nova</span>
+                                    <span className="text-primary text-color"> Bazzar</span>
                                 </span>
                             </a>
                         </div>
                         <div className="contact-info">
                             <div className="contact-item mb-2">
                                 <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon me-2" />
-                                <span><strong>Address:</strong> Bihar, India</span>
+                                <span><strong>Address:</strong> Kasur, Pakistan</span>
                             </div>
                             <div className="contact-item">
                                 <FontAwesomeIcon icon={faPhone} className="contact-icon me-2" />
-                                <span><strong>Helpline:</strong> +91 9999999999</span>
+                                <span><strong>Helpline:</strong> +92 3090319063</span>
                             </div>
                         </div>
                     </Col>
