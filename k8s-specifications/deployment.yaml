@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: csshop
+  name: csshop
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: csshop
+  template:
+    metadata:
+      labels:
+        app: csshop
+    spec:
+      containers:
+      - image: ahk3983/csshop:latest
+        name: csshop
+        ports:
+        - containerPort: 80
+          name: csshop
